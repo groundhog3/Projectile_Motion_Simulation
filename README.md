@@ -11,4 +11,4 @@ p5 is a JavaScript library for drawing that comes with many different features.
 # Limits
 Because this simulation used a drawing library that is known for being slow, this simulation has two drawbacks:
 1. Lag – Depending on what settings are used, the projectile lags as its being drawn.
-2. Precision – Because of `performance.now` used for timing, and rounding errors with `Vector` objects in the p5 library, the distances and speeds displayed are not very accurate in the simulation.
+2. Precision – Because of `performance.now()` used for timing, and rounding errors with `Vector` objects in the p5 library, the distances and speeds displayed are not very accurate in the simulation.
